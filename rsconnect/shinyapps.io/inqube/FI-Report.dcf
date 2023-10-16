@@ -1,0 +1,12 @@
+name: FI-Report
+title: FI-Report
+username: inqube
+account: inqube
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9695084
+bundleId: 7788300
+url: https://inqube.shinyapps.io/FI-Report/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

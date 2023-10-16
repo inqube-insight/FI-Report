@@ -1,0 +1,29 @@
+@page {
+  size: A4;
+}
+
+
+@media print
+{
+  body  { -webkit-print-color-adjust: exact !important; }
+  table { page-break-after:always; }
+  tr    { page-break-inside:avoid; page-break-after:auto; }
+  td    { page-break-inside:avoid; page-break-after:avoid; }
+  thead { display:table-header-group; }
+  tfoot { display:table-footer-group; }
+  
+  #srfHdrTable { page-break-after:avoid; }
+  
+  * {
+    overflow: visible !important;  
+  }
+  
+  textarea { overflow: hidden !important; }
+}
+
+#srfHdrTable > tbody > tr > td {
+    width: 16.6%;
+    border: 1px dashed #f0f0f0;
+    padding: 4px;
+    font-size: 10px;
+}
